@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Testcases">
+<test name="Smoke Testcases">
+<groups>
+<run>
+<include name="priority1"/>
+</run>
+</groups>
+<classes>
+<class name="Framework.FrameworkDesign.OnlinePayment">
+</class>
+<class name ="Framework.FrameworkDesign.Framework"/>
+</classes>
+</test>
+</suite>
