@@ -63,7 +63,7 @@ public static void WriteExcel() throws IOException{
 	fout= new FileOutputStream(path);
 	sheet.getRow(0).createCell(2).setCellValue("YES");
 	wb.write(fout);
-	wb.close();
+//	wb.close();
 }
 
 
